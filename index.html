@@ -3,73 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABM Kabara Motors | Reliable Car Dealer in Kano</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ABM Kabara Motors | Premium Car Dealer in Kano</title>
+    <meta name="description" content="ABM Kabara Motors – SUVs, sedans, trucks, luxury cars, Tokunbo and Nigerian Used vehicles. Visit our showroom at No. 3 Obasanjo Road, Kano.">
+    <meta name="theme-color" content="#0b0b0d">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
+<body>
 
-    <!-- Header / Navbar -->
-    <header class="bg-slate-900 text-white shadow-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold tracking-wide">ABM Kabara Motors</h1>
-            <a href="https://abmkabaramotors.com" class="text-amber-400 font-semibold hover:underline">abmkabaramotors.com</a>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#top" class="brand" aria-label="ABM Kabara Motors home">
+                <!-- LOGO: save your logo as images/logo.png, then replace the <span class="brand__mark"> line below with:
+                     <img src="images/logo.png" alt="ABM Kabara Motors" class="brand__logo"> -->
+                <span class="brand__mark" aria-hidden="true">ABM</span>
+                <span class="brand__name">Kabara <em>Motors</em></span>
+            </a>
+
+            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav id="site-nav" class="site-nav">
+                <a href="#inventory">Inventory</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="https://wa.me/2348166862712" target="_blank" rel="noopener" class="btn btn--gold btn--sm">WhatsApp Us</a>
+            </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="bg-slate-800 text-white py-20 px-4 text-center">
-        <div class="max-w-3xl mx-auto">
-            <h2 class="text-4xl font-extrabold mb-4">Drive Your Dream Car Today</h2>
-            <p class="text-lg text-gray-300 mb-6">Reliable car dealer offering SUVs, Sedans, Trucks, Luxury cars, Tokunbo, and Nigerian Used vehicles with happy customers guaranteed.</p>
-            <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-6 py-3 rounded-lg shadow transition">Contact Showroom</a>
-        </div>
-    </section>
+    <main id="top">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <p class="eyebrow">Kano's trusted car dealer</p>
+                <h1>Drive your <span class="gold">dream car</span> today.</h1>
+                <p class="hero-lead">SUVs, sedans, trucks and luxury vehicles, Tokunbo and Nigerian Used, inspected and ready for the road.</p>
+                <div class="hero-actions">
+                    <a href="#inventory" class="btn btn--gold">View Inventory</a>
+                    <a href="https://wa.me/2348166862712" target="_blank" rel="noopener" class="btn btn--ghost">Chat on WhatsApp</a>
+                </div>
+                <ul class="hero-highlights">
+                    <li><strong>Tokunbo</strong><span>Foreign used</span></li>
+                    <li><strong>Nigerian Used</strong><span>Every budget</span></li>
+                    <li><strong>Open Daily</strong><span>09:00 – 18:00</span></li>
+                </ul>
+            </div>
+        </section>
 
-    <!-- Inventory / Categories Section -->
-    <section class="max-w-7xl mx-auto px-4 py-16">
-        <h3 class="text-3xl font-bold mb-8 text-center">Featured Categories</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200 text-center">
-                <h4 class="font-bold text-xl mb-2 text-slate-800">SUVs & Trucks</h4>
-                <p class="text-gray-600 text-sm mb-4">Rugged, spacious, and built for all terrains. (Placeholder inventory ready for your update)</p>
-                <span class="inline-block bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-1 rounded">Available</span>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200 text-center">
-                <h4 class="font-bold text-xl mb-2 text-slate-800">Sedans & Luxury Cars</h4>
-                <p class="text-gray-600 text-sm mb-4">Smooth city drives and top-tier luxury models for ultimate comfort.</p>
-                <span class="inline-block bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-1 rounded">Available</span>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200 text-center">
-                <h4 class="font-bold text-xl mb-2 text-slate-800">Tokunbo & Nigerian Used</h4>
-                <p class="text-gray-600 text-sm mb-4">Inspected and well-maintained vehicles matching every budget.</p>
-                <span class="inline-block bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-1 rounded">Available</span>
-            </div>
-        </div>
-    </section>
+        <!-- Inventory -->
+        <section id="inventory" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Featured Inventory</p>
+                    <h2>Vehicles in our showroom</h2>
+                    <p>Filter by body type or condition. Tap <em>Enquire</em> to ask about a car on WhatsApp.</p>
+                </div>
 
-    <!-- Contact & Location -->
-    <section id="contact" class="bg-white py-16 border-t border-gray-200">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h3 class="text-2xl font-bold mb-6 text-slate-800">Visit Our Showroom</h3>
-            <p class="text-gray-700 mb-2"><strong>Address:</strong> No. 3 Obasanjo Road, Kano, Nigeria</p>
-            <p class="text-gray-700 mb-2"><strong>Working Hours:</strong> 09:00 hrs – 18:00 hrs Daily</p>
-            <p class="text-gray-700 mb-2"><strong>Phone Lines:</strong> +234 284 153 66 / +234 816 686 2712</p>
-            <p class="text-gray-700 mb-6"><strong>Email:</strong> abmkabaramotors@gmail.com</p>
+                <div class="filters" role="group" aria-label="Filter inventory">
+                    <div class="filter-group">
+                        <button class="chip is-active" data-filter="type" data-value="All" aria-pressed="true">All</button>
+                        <button class="chip" data-filter="type" data-value="SUV" aria-pressed="false">SUVs</button>
+                        <button class="chip" data-filter="type" data-value="Sedan" aria-pressed="false">Sedans</button>
+                        <button class="chip" data-filter="type" data-value="Truck" aria-pressed="false">Trucks</button>
+                        <button class="chip" data-filter="type" data-value="Luxury" aria-pressed="false">Luxury</button>
+                    </div>
+                    <div class="filter-group">
+                        <button class="chip is-active" data-filter="condition" data-value="All" aria-pressed="true">Any condition</button>
+                        <button class="chip" data-filter="condition" data-value="Tokunbo" aria-pressed="false">Tokunbo</button>
+                        <button class="chip" data-filter="condition" data-value="Nigerian Used" aria-pressed="false">Nigerian Used</button>
+                    </div>
+                    <p id="inventory-count" class="filter-count" aria-live="polite"></p>
+                </div>
 
-            <!-- Social Media Handles (Ready to input) -->
-            <div class="flex justify-center space-x-4 mb-6">
-                <a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200">WhatsApp Chat</a>
-                <a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200">Instagram</a>
-                <a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200">Facebook</a>
-                <a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200">TikTok</a>
+                <div id="inventory-grid" class="card-deck"></div>
+                <p id="inventory-empty" class="empty-state" hidden>No vehicles match this filter right now. <a href="https://wa.me/2348166862712" target="_blank" rel="noopener">Tell us what you're looking for</a> and we'll find it.</p>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="section section--alt">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Our Services</p>
+                    <h2>More than a car lot</h2>
+                    <p>We support you before, during and after your purchase.</p>
+                </div>
+                <div class="card-deck card-deck--services">
+                    <article class="service-card">
+                        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 13l2-5h10l2 5M5 13h14v4H5zM7 17v2M17 17v2"/></svg></div>
+                        <h3>Car Sales</h3>
+                        <p>SUVs, sedans, trucks, luxury cars, Tokunbo and Nigerian Used vehicles for every need and budget.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h11l-3-3M17 17H6l3 3"/></svg></div>
+                        <h3>Trade-In &amp; Swap</h3>
+                        <p>Bring in your current vehicle and swap it towards an upgrade.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.5 8-8 9-4.5-1-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+                        <h3>Vehicle Inspection</h3>
+                        <p>Every car is checked before sale so you can drive away with confidence.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg></div>
+                        <h3>Paperwork Support</h3>
+                        <p>Help with vehicle documents and registration to make ownership hassle-free.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container contact">
+                <div class="contact__intro">
+                    <p class="eyebrow">Visit the Showroom</p>
+                    <h2>Come see the cars in person</h2>
+                    <p>Our team is ready to help you find the right vehicle. Walk in, call, or send us a message on WhatsApp.</p>
+                    <a href="https://wa.me/2348166862712" target="_blank" rel="noopener" class="btn btn--gold">Chat on WhatsApp</a>
+                </div>
+                <dl class="contact__details">
+                    <div><dt>Address</dt><dd>No. 3 Obasanjo Road, Kano, Nigeria</dd></div>
+                    <div><dt>Working Hours</dt><dd>09:00 – 18:00 daily</dd></div>
+                    <div><dt>Phone</dt><dd><a href="tel:+23428415366">+234 284 153 66</a><br><a href="tel:+2348166862712">+234 816 686 2712</a></dd></div>
+                    <div><dt>Email</dt><dd><a href="mailto:abmkabaramotors@gmail.com">abmkabaramotors@gmail.com</a></dd></div>
+                </dl>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-gray-400 py-6 text-center text-sm">
-        <p>&copy; 2026 ABM Kabara Motors. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="brand__name">Kabara <em>Motors</em></p>
+            <!-- Social links: add each URL here when ready, e.g.
+                 <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a> -->
+            <p>&copy; 2026 ABM Kabara Motors. All rights reserved.</p>
+        </div>
     </footer>
 
+    <!-- Floating WhatsApp button -->
+    <a href="https://wa.me/2348166862712" target="_blank" rel="noopener" class="wa-float" aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2z"/></svg>
+    </a>
+
+    <script src="inventory.js"></script>
+    <script>
+        // Mobile menu toggle
+        (function () {
+            const toggle = document.querySelector('.nav-toggle');
+            const nav = document.getElementById('site-nav');
+            toggle.addEventListener('click', () => {
+                const open = nav.classList.toggle('is-open');
+                toggle.setAttribute('aria-expanded', String(open));
+            });
+            nav.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => {
+                nav.classList.remove('is-open');
+                toggle.setAttribute('aria-expanded', 'false');
+            }));
+        })();
+    </script>
 </body>
 </html>
